@@ -17,6 +17,7 @@ return new class extends Migration
             $table->foreignId('city_id')->constrained();
             $table->foreignId('restaurant_branch_id')->constrained('restaurant_branches');
             $table->string('mobile', 15);
+            $table->string('title',200);
             $table->foreignId('status')->constrained('constants');
             $table->timestamps();
             $table->softDeletes();
