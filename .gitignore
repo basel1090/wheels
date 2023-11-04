@@ -1,8 +1,7 @@
-/public/
-/public/restaurants_attachment
-/public/captins_attachment
-/public/attachments
-/public/images
+/public/restaurants_attachment/*
+/public/captins_attachment/*
+/public/attachments/*
+/public/images/*
 /.phpunit.cache
 /node_modules
 /public/build
